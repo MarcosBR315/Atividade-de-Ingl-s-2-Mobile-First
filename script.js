@@ -1,5 +1,6 @@
 let count = 0;
-let counter = document.getElementById("p_1").innerHTML = count;
+let counter1 = document.getElementById("p_1").innerHTML = count;
+let counter2 = document.getElementById("p_2").innerHTML = count;
 
 function counterLess() {
     if(count > 0){
@@ -7,7 +8,8 @@ function counterLess() {
     }
     console.log("Quantidade: ", count);
 
-    let updateLess = document.getElementById("p_1").innerHTML = count;
+    let updateLess1 = document.getElementById("p_1").innerHTML = count;
+    let updateLess2 = document.getElementById("p_2").innerHTML = count;
 };
 
 function counterPlus() {
@@ -16,6 +18,6 @@ function counterPlus() {
     }
     console.log("Quantidade: ", count);
 
-    let updatePlus = document.getElementById("p_1").innerHTML = count;
+    let updatePlus1 = document.getElementById("p_1").innerHTML = count;
+    let updatePlus2 = document.getElementById("p_2").innerHTML = count;
 };
-
